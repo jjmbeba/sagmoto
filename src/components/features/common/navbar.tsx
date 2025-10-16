@@ -1,4 +1,4 @@
-import { Link } from "@tanstack/react-router";
+import { Link, useRouterState } from "@tanstack/react-router";
 import {
   Book,
   Container,
@@ -23,6 +23,7 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
+import { cn } from "@/lib/utils";
 
 type MenuItem = {
   title: string;
@@ -126,10 +127,14 @@ const Navbar = ({
     },
     {
       title: "About Us",
-      url: "#",
+      url: "/about",
     },
   ],
 }: NavbarProps) => {
+  const {
+    location: { href },
+  } = useRouterState();
+
   return (
     <section className="relative z-50 bg-transparent px-6 py-4 pb-2 md:px-0">
       <div className="container bg-transparent">
@@ -145,7 +150,10 @@ const Navbar = ({
             <div className="flex items-center gap-4 bg-transparent">
               {menu.map((item) => (
                 <Link
-                  className="bg-transparent uppercase hover:text-orange-500"
+                  className={cn(
+                    "bg-transparent uppercase hover:text-orange-500",
+                    href === item.url && "text-orange-500"
+                  )}
                   key={item.title}
                   to={item.url}
                 >
