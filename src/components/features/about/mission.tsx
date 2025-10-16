@@ -42,11 +42,12 @@ const MissionSection = () => (
         </ul>
       </div>
       <div className="relative aspect-video w-full overflow-hidden rounded-xl border">
-        <img
+        {/* <img
           alt="Technician inspecting a commercial truck"
           className="h-full w-full object-cover"
           src="/about-mission.jpg"
-        />
+        /> */}
+        <div className="h-full w-full bg-muted" />
       </div>
     </div>
   </section>

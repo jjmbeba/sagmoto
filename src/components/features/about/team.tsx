@@ -35,7 +35,10 @@ const TeamSection = () => (
             <div className="mb-4 flex items-center gap-4">
               <Avatar className="size-14">
                 <AvatarImage alt={member.name} src={member.image ?? ""} />
-                <AvatarFallback>{member.name}</AvatarFallback>
+                <AvatarFallback>
+                  {member.name.split(" ")[0].charAt(0) +
+                    member.name.split(" ")[1].charAt(0)}
+                </AvatarFallback>
               </Avatar>
               <div>
                 <h3 className="font-semibold">{member.name}</h3>

@@ -77,7 +77,7 @@ const ProductGrid = ({ trucks }: { trucks: Truck[] }) => (
       <Card className="overflow-hidden bg-transparent" key={truck.modelName}>
         <CardHeader className="space-y-4">
           <div className="aspect-video w-full overflow-hidden rounded-lg bg-muted">
-            <div className="aspect-square h-full w-full border" />
+            <div className="aspect-square h-full w-full bg-muted" />
           </div>
           <CardTitle className="text-xl">{truck.name}</CardTitle>
           <ul className="space-y-1 text-sm">

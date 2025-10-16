@@ -3,11 +3,12 @@ import { Button } from "@/components/ui/button";
 const AboutHero = () => (
   <section className="overflow-hidden py-6">
     <div className="h-[30dvh] sm:h-[45dvh] md:h-[55dvh]">
-      <img
+      {/* <img
         alt="About Equipment King Inc."
         className="h-full w-full object-cover"
         src="/about-hero.jpg"
-      />
+      /> */}
+      <div className="h-full w-full bg-muted" />
     </div>
     <div className="mt-6 flex flex-col items-center justify-center gap-4">
       <h1 className="px-4 text-center font-bold text-3xl sm:text-4xl md:text-5xl">
