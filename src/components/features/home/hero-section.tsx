@@ -10,7 +10,7 @@ import {
 
 const HeroSection = () => (
   <section className="overflow-hidden py-6">
-    <div className="h-[70dvh]">
+    <div className="h-[40dvh] sm:h-[60dvh] md:h-[70dvh]">
       <img
         alt="Hero"
         className="h-full w-full object-cover"
@@ -18,10 +18,12 @@ const HeroSection = () => (
       />
     </div>
     <div className="mt-6 flex flex-col items-center justify-center gap-4">
-      <h3 className="font-bold text-4xl">Find your next truck</h3>
-      <div className="mx-auto flex w-2/3 items-center gap-4 border p-6">
+      <h3 className="px-4 text-center font-bold text-2xl sm:text-3xl md:text-4xl">
+        Find your next truck
+      </h3>
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-stretch gap-3 border px-4 py-4 sm:w-11/12 sm:gap-4 sm:px-6 sm:py-6 md:w-4/5 md:flex-row md:items-center lg:w-2/3">
         <Select>
-          <SelectTrigger className="w-[200px]">
+          <SelectTrigger className="w-full md:w-[200px]">
             <SelectValue placeholder="Select category" />
           </SelectTrigger>
           <SelectContent>
@@ -31,7 +33,7 @@ const HeroSection = () => (
           </SelectContent>
         </Select>
         <Select>
-          <SelectTrigger className="w-[200px]">
+          <SelectTrigger className="w-full md:w-[200px]">
             <SelectValue placeholder="Select make" />
           </SelectTrigger>
           <SelectContent>
@@ -41,7 +43,7 @@ const HeroSection = () => (
           </SelectContent>
         </Select>
         <Select>
-          <SelectTrigger className="w-[200px]">
+          <SelectTrigger className="w-full md:w-[200px]">
             <SelectValue placeholder="Select model" />
           </SelectTrigger>
           <SelectContent>
@@ -50,9 +52,13 @@ const HeroSection = () => (
             <SelectItem value="system">Services</SelectItem>
           </SelectContent>
         </Select>
-        <Button>
+        <Button
+          aria-label="Search trucks"
+          className="w-full md:w-auto"
+          type="button"
+        >
           <SearchIcon className="size-4 bg-transparent text-background" />
-          Search
+          <span className="ml-2 bg-transparent">Search</span>
         </Button>
       </div>
     </div>

@@ -17,12 +17,6 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import {
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuTrigger,
-} from "@/components/ui/navigation-menu";
-import {
   Sheet,
   SheetContent,
   SheetHeader,
@@ -40,28 +34,16 @@ type MenuItem = {
 
 type NavbarProps = {
   logo?: {
-    src: string;
     alt: string;
     title: string;
   };
   menu?: MenuItem[];
-  auth?: {
-    login: {
-      title: string;
-      url: string;
-    };
-    signup: {
-      title: string;
-      url: string;
-    };
-  };
 };
 
 const Navbar = ({
   logo = {
-    src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/logos/shadcnblockscom-icon.svg",
     alt: "logo",
-    title: "Sagmoto",
+    title: "Equipment King Inc.",
   },
   menu = [
     {
@@ -147,39 +129,23 @@ const Navbar = ({
       url: "#",
     },
   ],
-  auth = {
-    login: { title: "Login", url: "#" },
-    signup: { title: "Sign up", url: "#" },
-  },
 }: NavbarProps) => {
   return (
-    <section className="relative z-50 bg-transparent py-4 pb-2">
+    <section className="relative z-50 bg-transparent px-6 py-4 pb-2 md:px-0">
       <div className="container bg-transparent">
         {/* Desktop Menu */}
         <nav className="hidden justify-between bg-transparent lg:flex">
           <div className="flex flex-1 items-center justify-between bg-transparent px-4">
             {/* Logo */}
             <Link className="flex items-center gap-2 bg-transparent" to="/">
-              <img
-                alt={logo.alt}
-                className="max-h-8 bg-transparent dark:invert"
-                height={32}
-                src={logo.src}
-                width={32}
-              />
               <span className="bg-transparent font-semibold text-lg tracking-tighter">
                 {logo.title}
               </span>
             </Link>
             <div className="flex items-center gap-4 bg-transparent">
-              {/* <NavigationMenu className="bg-transparent">
-                <NavigationMenuList className="bg-transparent">
-                  {menu.map((item) => renderMenuItem(item))}
-                </NavigationMenuList>
-              </NavigationMenu> */}
               {menu.map((item) => (
                 <Link
-                  className="bg-transparent uppercase"
+                  className="bg-transparent uppercase hover:text-orange-500"
                   key={item.title}
                   to={item.url}
                 >
@@ -195,13 +161,9 @@ const Navbar = ({
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link className="flex items-center gap-2" to="/">
-              <img
-                alt={logo.alt}
-                className="max-h-8 dark:invert"
-                height={32}
-                src={logo.src}
-                width={32}
-              />
+              <span className="font-semibold text-lg tracking-tighter">
+                {logo.title}
+              </span>
             </Link>
             <Sheet>
               <SheetTrigger asChild>
@@ -213,13 +175,9 @@ const Navbar = ({
                 <SheetHeader>
                   <SheetTitle>
                     <Link className="flex items-center gap-2" to="/">
-                      <img
-                        alt={logo.alt}
-                        className="max-h-8 dark:invert"
-                        height={32}
-                        src={logo.src}
-                        width={32}
-                      />
+                      <span className="font-semibold text-lg tracking-tighter">
+                        {logo.title}
+                      </span>
                     </Link>
                   </SheetTitle>
                 </SheetHeader>
@@ -231,15 +189,6 @@ const Navbar = ({
                   >
                     {menu.map((item) => renderMobileMenuItem(item))}
                   </Accordion>
-
-                  <div className="flex flex-col gap-3">
-                    <Button asChild variant="outline">
-                      <a href={auth.login.url}>{auth.login.title}</a>
-                    </Button>
-                    <Button asChild>
-                      <a href={auth.signup.url}>{auth.signup.title}</a>
-                    </Button>
-                  </div>
                 </div>
               </SheetContent>
             </Sheet>
@@ -247,34 +196,6 @@ const Navbar = ({
         </div>
       </div>
     </section>
-  );
-};
-
-const renderMenuItem = (item: MenuItem) => {
-  if (item.items) {
-    return (
-      <NavigationMenuItem key={item.title}>
-        <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>
-        <NavigationMenuContent className="bg-popover text-popover-foreground">
-          {item.items.map((subItem) => (
-            <NavigationMenuLink asChild className="w-80" key={subItem.title}>
-              <SubMenuLink item={subItem} />
-            </NavigationMenuLink>
-          ))}
-        </NavigationMenuContent>
-      </NavigationMenuItem>
-    );
-  }
-
-  return (
-    <NavigationMenuItem key={item.title}>
-      <NavigationMenuLink
-        className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 font-medium text-sm transition-colors hover:bg-muted hover:text-accent-foreground"
-        href={item.url}
-      >
-        {item.title}
-      </NavigationMenuLink>
-    </NavigationMenuItem>
   );
 };
 

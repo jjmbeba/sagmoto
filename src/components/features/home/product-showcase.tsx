@@ -7,7 +7,7 @@ import type { Truck } from "@/types";
 const MAX_TRUCKS_PER_TAB = 6;
 
 const ProductShowcase = () => (
-  <section className="py-20">
+  <section className="pt-20">
     <div className="container">
       <div className="mb-16 text-center">
         <h2 className="mb-4 font-bold text-4xl lg:text-5xl">

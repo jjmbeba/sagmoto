@@ -10,8 +10,6 @@ type MenuItem = {
 
 type FooterProps = {
   logo?: {
-    url: string;
-    src: string;
     alt: string;
     title: string;
   };
@@ -26,10 +24,8 @@ type FooterProps = {
 
 const Footer = ({
   logo = {
-    src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
     alt: "blocks for shadcn/ui",
-    title: "Sagmoto",
-    url: "https://www.shadcnblocks.com",
+    title: "Equipment King Inc.",
   },
   tagline = "Components made easy.",
   menuItems = [
@@ -67,20 +63,13 @@ const Footer = ({
     { text: "Privacy Policy", url: "#" },
   ],
 }: FooterProps) => (
-  <section className="px-4 py-32">
+  <section className="px-6 py-16 md:px-5">
     <div className="container">
       <footer>
         <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
           <div className="col-span-2 mb-8 lg:mb-0">
             <div className="flex items-center gap-2 lg:justify-start">
               <Link className="flex items-center gap-2" to="/">
-                <img
-                  alt={logo.alt}
-                  className="max-h-8 dark:invert"
-                  height={32}
-                  src={logo.src}
-                  width={32}
-                />
                 <span className="font-semibold text-lg tracking-tighter">
                   {logo.title}
                 </span>
