@@ -28,7 +28,7 @@ const ProductShowcase = () => (
           </TabsList>
           <TabsContent value="light-duty">
             <ProductGrid
-              trucks={resources.en.translation.sagmoto_truck_families.heavy_duty_trucks.slice(
+              trucks={resources.en.translation.sagmoto_truck_families.light_duty_trucks.slice(
                 0,
                 MAX_TRUCKS_PER_TAB
               )}

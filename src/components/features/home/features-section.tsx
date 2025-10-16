@@ -98,10 +98,10 @@ const FeaturesSection = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {features.map((feature, index) => (
+          {features.map((feature) => (
             <div
               className="rounded-xl bg-slate-800 p-8 transition-colors duration-300 hover:bg-slate-700"
-              key={index}
+              key={feature.title}
             >
               <div className="mb-6 flex items-center gap-4">
                 <div className="flex-shrink-0">{feature.icon}</div>
@@ -115,10 +115,10 @@ const FeaturesSection = () => {
               </p>
 
               <ul className="space-y-2">
-                {feature.benefits.map((benefit, benefitIndex) => (
+                {feature.benefits.map((benefit) => (
                   <li
                     className="flex items-center gap-2 text-slate-300"
-                    key={benefitIndex}
+                    key={benefit}
                   >
                     <CheckCircle className="h-4 w-4 flex-shrink-0 text-green-500" />
                     <span className="text-sm">{benefit}</span>
