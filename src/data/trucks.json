@@ -1,0 +1,1422 @@
+{
+  "en": {
+    "translation": {
+      "sagmoto_truck_families": {
+        "heavy_duty_trucks": [
+          {
+            "modelName": "Zenith",
+            "name": "Heavy Duty Truck - Zenith",
+            "description": "Zenith is a new product developed for high-end and intelligent transportation requirements.",
+            "positioning": [
+              "For urban truck logistics",
+              "For daily industrial products",
+              "For container transportation"
+            ],
+            "features": [
+              "Driving Safety & Intelligence",
+              "Optimal fuel economy performance",
+              "Upgraded comfort and economical design"
+            ],
+            "driving_types": ["4x2 Tractor", "6x4 Tractor"],
+            "engine": [
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 12.5,
+                "model": "M13E5560",
+                "power_ps": 560,
+                "max_torque_nm": 2600
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "AMT",
+                "gears": 12,
+                "model": "EHDM-26N112C-R+VR115CT",
+                "shell_material": "Aluminium",
+                "torque_nm": 2600,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 14.43,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ469",
+                "type": "Single",
+                "axle_load_kg": "13T",
+                "torque_nm": 44000,
+                "speed_ratio": "3.364/3.7"
+              }
+            ]
+          },
+          {
+            "modelName": "E1st",
+            "name": "Heavy Duty Truck - E1st",
+            "description": "E1st is a brand-new super heavy-duty truck launched by SAGMOTO after the analysis and research on the future development direction of logistic transportation and customer needs. With excellent performance, comfort and all-round safety guarantee, it brings new transportation experience and more values to users.",
+            "positioning": [
+              "For urban truck logistics transportation",
+              "For daily industrial products transportation",
+              "For container transportation"
+            ],
+            "features": [
+              "Driving Safety & Intelligence",
+              "Exclusive integrated super power chain",
+              "Optimal fuel economy performance"
+            ],
+            "driving_types": ["4x2 Tractor", "6x4 Tractor"],
+            "engine": [
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 12.5,
+                "model": "M13E5560",
+                "power_ps": 560,
+                "max_torque_nm": 2600
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "AMT",
+                "gears": 12,
+                "model": "EHDM-26N112C-R+VR115CT",
+                "shell_material": "Aluminium",
+                "torque_nm": 2600,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 14.43,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HD469",
+                "type": "Single",
+                "axle_load_kg": "13T",
+                "torque_nm": 44000,
+                "speed_ratio": "3.364/3.7"
+              }
+            ]
+          },
+          {
+            "modelName": "Series_3",
+            "name": "Heavy Duty Truck - 3 Series",
+            "description": "The E3 is a durable, intelligent, and safe truck that improves payload, driving performance, and productivity to a new level. It ensures the highest level of uptime and efficiency even in the most challenging environments.",
+            "positioning": [
+              "For long-distance express transportation",
+              "For mining engineering transportation",
+              "For urban construction transportation"
+            ],
+            "features": [
+              "Narrow-body cab design",
+              "Intelligent and comfortable configurations",
+              "Efficient power chain applications"
+            ],
+            "driving_types": [
+              "4x2 Tractor",
+              "6x4 Tractor",
+              "6x6 Tractor",
+              "6x4 Dump truck",
+              "6x6 Dump truck",
+              "8x4 Dump truck",
+              "8x8 Dump truck",
+              "4x2 Lorry truck",
+              "6x4 Lorry truck",
+              "8x4 Lorry truck",
+              "Special truck (Concrete Mixer, Refrigerated, Compactor Garbage, Truck-mounted Crane)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": "10.34/11.73",
+                "model": "YC6MK-33/YC6MJ-33",
+                "power_ps": "340-460",
+                "max_torque_nm": "1550-2110"
+              },
+              {
+                "emission": "Euro III",
+                "engine_capacity_l": "10.8/10.34",
+                "model": "ISME 30/YC6MK-50",
+                "power_ps": "345-420",
+                "max_torque_nm": "1710-2000"
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": "9.92/10.8/11.8",
+                "model": "M10E5/ISM11E5/ISGe5 490",
+                "power_ps": "385-490",
+                "max_torque_nm": "1900-2300"
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 10,
+                "model": "10JSD180",
+                "shell_material": "Iron",
+                "torque_nm": 1800,
+                "gear_type": "Direct",
+                "first_gear_ratio": 14.917,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 12,
+                "model": "12JSD200TA-B",
+                "shell_material": "Aluminium",
+                "torque_nm": 2000,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 12.098,
+                "top_gear_ratio": 0.78
+              },
+              {
+                "shift_mode": "AMT",
+                "gears": 12,
+                "model": "EHDM-26N112C-R(VR115CN)",
+                "shell_material": "Aluminium",
+                "torque_nm": 2600,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 18.85,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ485",
+                "type": "Single",
+                "axle_load_kg": "13T",
+                "torque_nm": 46000,
+                "speed_ratio": "3.7/4.111"
+              },
+              {
+                "model": "HDZ300",
+                "type": "Single",
+                "axle_load_kg": "13T/16T",
+                "torque_nm": 50000,
+                "speed_ratio": "4.266/4.769/5.262/5.92/6.733"
+              }
+            ]
+          }
+        ],
+        "medium_duty_trucks": [
+          {
+            "modelName": "Series_6",
+            "name": "Medium Duty Truck - 6 Series",
+            "description": "The 6 series trucks have many advantages such as strong power, good passability, strong load capacity, and high reliability, suitable for busy drivers, and have good performance in efficient transportation over short distances in urban areas.",
+            "positioning": [
+              "For medium-and long-distance intercity transportation",
+              "For construction & mining transportation",
+              "For urban residential transportation"
+            ],
+            "features": [
+              "Flexible and lightweight",
+              "Small turning radius",
+              "High reliability & strong bearing capacity",
+              "Equipped with 3L, 4L, 7L engines"
+            ],
+            "driving_types": [
+              "6x4 Dump truck",
+              "8x4 Dump truck",
+              "4x2 Lorry truck",
+              "4x4 Lorry truck",
+              "6x2 Lorry truck",
+              "6x4 Lorry truck",
+              "Special truck (Concrete Mixer, Refrigerated, Compactor Garbage, Truck-mounted Crane)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": 6.49,
+                "model": "YC6A210-33",
+                "power_ps": 210,
+                "max_torque_nm": 710
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 6.7,
+                "model": "ISD270-50",
+                "power_ps": 270,
+                "max_torque_nm": 970
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 7.52,
+                "model": "YC6A270-50",
+                "power_ps": 270,
+                "max_torque_nm": 1100
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 8,
+                "model": "8JS118",
+                "shell_material": "Iron",
+                "torque_nm": 1180,
+                "gear_type": "Direct",
+                "first_gear_ratio": 11.4,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 9,
+                "model": "9JS135T-B",
+                "shell_material": "Iron",
+                "torque_nm": 1180,
+                "gear_type": "Direct",
+                "first_gear_ratio": 12.11,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 10,
+                "model": "10JSD120B",
+                "shell_material": "Iron",
+                "torque_nm": 1200,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 12.74,
+                "top_gear_ratio": 0.73
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "153",
+                "type": "Single",
+                "axle_load_ton": 10,
+                "torque_nm": 30000,
+                "speed_ratio": "4.875/5.143/5.573/6.83"
+              },
+              {
+                "model": "457",
+                "type": "Single",
+                "axle_load_ton": 13,
+                "torque_nm": 40000,
+                "speed_ratio": "4.875/5.286/5.833/6.33"
+              },
+              {
+                "model": "HDZ13T",
+                "type": "Single",
+                "axle_load_ton": 13,
+                "torque_nm": 46000,
+                "speed_ratio": "3.7/4.11/4.625/5.571"
+              }
+            ]
+          }
+        ],
+        "light_duty_trucks": [
+          {
+            "modelName": "Series_7",
+            "name": "Light Duty Truck - 7 Series",
+            "description": "The 7 series trucks are compact, flexible, and with high-capacity. It is easy to drive, with high ground clearance, and excellent off-road ability, for muddy roads, desert terrain, and mountain transportation.",
+            "positioning": [
+              "For construction & mining transportation",
+              "For medium- and long-distance intercity transportation",
+              "For urban residential transportation"
+            ],
+            "features": [
+              "GVW up to 20 tons. CW less than 6 tons.",
+              "Narrow-body cab design",
+              "High reliability & strong bearing capacity"
+            ],
+            "driving_types": [
+              "4x2 Lorry Truck",
+              "4x4 Lorry Truck",
+              "4x2 Dump truck",
+              "4x4 Dump truck",
+              "Special truck (Concrete Mixer, Refrigerated, Compactor Garbage, Truck-mounted Crane)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": "3.9/4.26",
+                "model": "B125.33/B140 33/YC4E-33",
+                "power_ps": "125-160",
+                "max_torque_nm": "410-520"
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": "3.78/4.295",
+                "model": "ISF3.8s5/YCS04-50",
+                "power_ps": "168-220",
+                "max_torque_nm": "550-850"
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 8,
+                "model": "8JS85E-C",
+                "shell_material": "Iron",
+                "torque_nm": 850,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 10.364,
+                "top_gear_ratio": 0.794
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 8,
+                "model": "8JS85F-C",
+                "shell_material": "Iron",
+                "torque_nm": 850,
+                "gear_type": "Direct Gear",
+                "first_gear_ratio": 11.7,
+                "top_gear_ratio": 1
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "145",
+                "type": "Single",
+                "axle_load_ton": 8,
+                "torque_nm": 18000,
+                "speed_ratio": "5.286"
+              },
+              {
+                "model": "153",
+                "type": "Single",
+                "axle_load_ton": 10,
+                "torque_nm": 30000,
+                "speed_ratio": "5.574/5.833/6.333"
+              }
+            ]
+          },
+          {
+            "modelName": "Series_9",
+            "name": "Light Duty Truck - 9 Series",
+            "description": "The 9 series trucks are compact, flexible, and with high-capacity. It is easy to drive, with better visibility and ergonomic features, and offers a fully electric power system. SAGMOTO ES All-wheel drive light trucks are the preferred choice for mountain and jungle operations, with stronger gradient and better passability.",
+            "positioning": [
+              "For short-medium logistics",
+              "For intercity cold chain",
+              "For daily industrial products"
+            ],
+            "features": [
+              "Light weight for high mobility",
+              "Easily modified for special use",
+              "Equipped with 3L, 4L, 7L engines"
+            ],
+            "driving_types": [
+              "4x2 Lorry Truck",
+              "4x4 Lorry Truck",
+              "4x2 Dump truck",
+              "4x4 Dump truck",
+              "Special truck (Concrete Mixer, Refrigerated, Compactor Garbage, Truck-mounted Crane)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": "3.9/4.21",
+                "model": "B125 33/B140.33/YC4D-33",
+                "power_ps": "125-140",
+                "max_torque_nm": "380-450"
+              },
+              {
+                "emission": "Euro III",
+                "engine_capacity_l": "3.8/2.78",
+                "model": "ISF3.883/ISF2.8s5",
+                "power_ps": "129-161",
+                "max_torque_nm": "280-450"
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": "3.78/4.21",
+                "model": "ISF3.8s5/YC4D-50",
+                "power_ps": "140-168",
+                "max_torque_nm": "450-600"
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 6,
+                "model": "C6J55TB",
+                "shell_material": "Aluminium",
+                "torque_nm": 550,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 6.176,
+                "top_gear_ratio": 0.73
+              },
+              {
+                "shift_mode": "AMT",
+                "gears": 6,
+                "model": "F6JZ55AY",
+                "shell_material": "Aluminium",
+                "torque_nm": 550,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 5.91,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ260",
+                "type": "Single",
+                "axle_load_ton": 3.5,
+                "torque_nm": 11000,
+                "speed_ratio": "4.333"
+              },
+              {
+                "model": "HDZ280",
+                "type": "Single",
+                "axle_load_ton": 6,
+                "torque_nm": 14000,
+                "speed_ratio": "4.333/4.875"
+              },
+              {
+                "model": "1080",
+                "type": "Single",
+                "axle_load_ton": 6,
+                "torque_nm": 18000,
+                "speed_ratio": "4.33/5.286/5.83/6.83"
+              }
+            ]
+          }
+        ],
+        "electric_light_truck": [
+          {
+            "modelName": "Series_19",
+            "name": "Electric Light Truck - 19 Series",
+            "description": "19 series electric light truck with long cruise distance, long warranty, more satisfied and safety.",
+            "positioning": [
+              "For express delivery",
+              "For supermarket distribution",
+              "For cold chain"
+            ],
+            "features": [
+              "Integrated electric driving axle combines the motor with the rear axle",
+              "Equipped with CATL 86.55kWh/100.46kWh LiFePO4 batteries",
+              "Cruise distance can reach 280km-330km (fully charged, loaded with 4 tons of cargo)",
+              "Upgraded flat wire motor has a peak torque of 360 Nm",
+              "Charge from 10%-100% within 1 hour (750kw charging pile)"
+            ],
+            "driving_types": [
+              "4x2 Van truck",
+              "4x2 Refrigerated Truck",
+              "4x2 Stake truck"
+            ],
+            "drive_motor": [
+              {
+                "model": "TZ220XS-HD002",
+                "power_ps": 163,
+                "max_torque_nm": 480
+              }
+            ],
+            "battery": [
+              {
+                "brand": "CATL",
+                "model": "86.55kWh/100.46kWh",
+                "charging_performance": "Recharge: 20%-80% (40min), charge: 10%-100% (1h)",
+                "charging_time": "Direct current: 30kWh/60kWh/120kWh/180 kWh Time: 4h/2h/1h/40min"
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDE220",
+                "type": "Single",
+                "axle_load_kg": "3.5T",
+                "torque_nm": 11000,
+                "speed_ratio": "16.193"
+              }
+            ]
+          }
+        ],
+        "off_road_truck": [
+          {
+            "modelName": "Dump_Truck",
+            "name": "Off Road Truck - Dump Truck",
+            "description": "Off-road mining dump truck is customized for roadless/off-road/mining conditions, with strong carrying capacity, high reliability, low failure rate, and flexible usage.",
+            "positioning": [
+              "For mining haul roads and quarries",
+              "For off-road heavy material transport",
+              "For high-load, high-reliability operations"
+            ],
+            "features": [
+              "Greater carrying capacity higher attendance",
+              "GVW up to 70 tonnes",
+              "Adopting 850 wide-chassis structure",
+              "Maximum braking torque of 4000Nm"
+            ],
+            "driving_types": ["6x4 Dump truck"],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": 10.34,
+                "model": "YC6MK375-33",
+                "power_ps": 375,
+                "max_torque_nm": 1650
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 7,
+                "model": "7DS180",
+                "shell_material": "Iron",
+                "torque_nm": 1800,
+                "gear_type": "Direct",
+                "first_gear_ratio": 9.14,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 10,
+                "model": "10JSD180T+QH50",
+                "shell_material": "Iron",
+                "torque_nm": 1800,
+                "gear_type": "Direct",
+                "first_gear_ratio": 14.917,
+                "top_gear_ratio": 1
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDM300",
+                "type": "Double",
+                "axle_load_ton": 16,
+                "torque_nm": 50000,
+                "speed_ratio": "6.733/5.92/5.262"
+              }
+            ]
+          },
+          {
+            "modelName": "Offset_Tractor",
+            "name": "Off Road Truck - Offset Tractor",
+            "description": "SAGMOTO offset tractor has now formed two major series and three fuel choices (diesel, natural gas, and pure electric). It can adapt to the operational requirements of ports, logistics zones, and steel plants, etc.",
+            "positioning": [
+              "For ports and logistics yards",
+              "For steel plants and industrial sites",
+              "For short-distance trailer shunting"
+            ],
+            "features": [
+              "Assembly of off-road three-stage fuel gas engine meets ECE certification",
+              "High-load fifth wheel position sensing lifting system",
+              "Fifth wheel lifting range > 400mm, with 100% compatibility for port trailers"
+            ],
+            "driving_types": ["4x2 Tractor", "6x4 Tractor"],
+            "engine": [
+              {
+                "emission": "Euro III",
+                "engine_capacity_l": 6.7,
+                "model": "QSB6.7-C220-30",
+                "power_ps": 220,
+                "max_torque_nm": 949
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "AT",
+                "gears": 6,
+                "model": "Allison 3500P",
+                "shell_material": "Aluminium",
+                "torque_nm": 1335,
+                "gear_type": "Direct",
+                "first_gear_ratio": 4.59,
+                "top_gear_ratio": 0.65
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 6,
+                "model": "6DS130TA",
+                "shell_material": "Aluminium",
+                "torque_nm": 1300,
+                "gear_type": "Overspeed Gear",
+                "first_gear_ratio": 8.71,
+                "top_gear_ratio": 1
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ",
+                "type": "Double",
+                "axle_load_ton": 16,
+                "torque_nm": 43000,
+                "speed_ratio": "11.98"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "fr": {
+    "translation": {
+      "sagmoto_truck_families": {
+        "heavy_duty_trucks": [
+          {
+            "modelName": "Zenith",
+            "name": "Camion Lourd - Zenith",
+            "description": "Zenith est un nouveau produit développé pour les exigences de transport haut de gamme et intelligent.",
+            "positioning": [
+              "Pour la logistique par camion urbain",
+              "Pour les produits industriels quotidiens",
+              "Pour le transport de conteneurs"
+            ],
+            "features": [
+              "Sécurité de conduite & Intelligence",
+              "Performance optimale en matière d'économie de carburant",
+              "Confort et design économique améliorés"
+            ],
+            "driving_types": ["Tracteur 4x2", "Tracteur 6x4"],
+            "engine": [
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 12.5,
+                "model": "M13E5560",
+                "power_ps": 560,
+                "max_torque_nm": 2600
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "AMT",
+                "gears": 12,
+                "model": "EHDM-26N112C-R+VR115CT",
+                "shell_material": "Aluminium",
+                "torque_nm": 2600,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 14.43,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ469",
+                "type": "Simple",
+                "axle_load_kg": "13T",
+                "torque_nm": 44000,
+                "speed_ratio": "3.364/3.7"
+              }
+            ]
+          },
+          {
+            "modelName": "E1st",
+            "name": "Camion Lourd - E1st",
+            "description": "E1st est un tout nouveau camion super lourd lancé par SAGMOTO après analyse et recherche sur l'orientation future du transport logistique et les besoins des clients. Avec d'excellentes performances, son confort et sa garantie de sécurité totale, il apporte une nouvelle expérience de transport et plus de valeur aux utilisateurs.",
+            "positioning": [
+              "Pour le transport logistique par camion urbain",
+              "Pour le transport quotidien de produits industriels",
+              "Pour le transport de conteneurs"
+            ],
+            "features": [
+              "Sécurité de conduite & Intelligence",
+              "Chaîne de puissance super intégrée exclusive",
+              "Performance optimale en matière d'économie de carburant"
+            ],
+            "driving_types": ["Tracteur 4x2", "Tracteur 6x4"],
+            "engine": [
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 12.5,
+                "model": "M13E5560",
+                "power_ps": 560,
+                "max_torque_nm": 2600
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "AMT",
+                "gears": 12,
+                "model": "EHDM-26N112C-R+VR115CT",
+                "shell_material": "Aluminium",
+                "torque_nm": 2600,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 14.43,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HD469",
+                "type": "Simple",
+                "axle_load_kg": "13T",
+                "torque_nm": 44000,
+                "speed_ratio": "3.364/3.7"
+              }
+            ]
+          },
+          {
+            "modelName": "Series_3",
+            "name": "Camion Lourd - Série 3",
+            "description": "L'E3 est un camion durable, intelligent et sûr qui améliore la charge utile, les performances de conduite et la productivité à un nouveau niveau. Il assure le plus haut niveau de disponibilité et d'efficacité même dans les environnements les plus difficiles.",
+            "positioning": [
+              "Pour le transport express longue distance",
+              "Pour le transport d'ingénierie minière",
+              "Pour le transport de construction urbaine"
+            ],
+            "features": [
+              "Conception de cabine à carrosserie étroite",
+              "Configurations intelligentes et confortables",
+              "Applications de chaîne de puissance efficaces"
+            ],
+            "driving_types": [
+              "Tracteur 4x2",
+              "Tracteur 6x4",
+              "Tracteur 6x6",
+              "Camion benne 6x4",
+              "Camion benne 6x6",
+              "Camion benne 8x4",
+              "Camion benne 8x8",
+              "Camion porteur 4x2",
+              "Camion porteur 6x4",
+              "Camion porteur 8x4",
+              "Camion spécial (Bétonnière, Frigorifique, Benne à ordures, Grue sur camion)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": "10.34/11.73",
+                "model": "YC6MK-33/YC6MJ-33",
+                "power_ps": "340-460",
+                "max_torque_nm": "1550-2110"
+              },
+              {
+                "emission": "Euro III",
+                "engine_capacity_l": "10.8/10.34",
+                "model": "ISME 30/YC6MK-50",
+                "power_ps": "345-420",
+                "max_torque_nm": "1710-2000"
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": "9.92/10.8/11.8",
+                "model": "M10E5/ISM11E5/ISGe5 490",
+                "power_ps": "385-490",
+                "max_torque_nm": "1900-2300"
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 10,
+                "model": "10JSD180",
+                "shell_material": "Fer",
+                "torque_nm": 1800,
+                "gear_type": "Directe",
+                "first_gear_ratio": 14.917,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 12,
+                "model": "12JSD200TA-B",
+                "shell_material": "Aluminium",
+                "torque_nm": 2000,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 12.098,
+                "top_gear_ratio": 0.78
+              },
+              {
+                "shift_mode": "AMT",
+                "gears": 12,
+                "model": "EHDM-26N112C-R(VR115CN)",
+                "shell_material": "Aluminium",
+                "torque_nm": 2600,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 18.85,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ485",
+                "type": "Simple",
+                "axle_load_kg": "13T",
+                "torque_nm": 46000,
+                "speed_ratio": "3.7/4.111"
+              },
+              {
+                "model": "HDZ300",
+                "type": "Simple",
+                "axle_load_kg": "13T/16T",
+                "torque_nm": 50000,
+                "speed_ratio": "4.266/4.769/5.262/5.92/6.733"
+              }
+            ]
+          }
+        ],
+        "medium_duty_trucks": [
+          {
+            "modelName": "Series_6",
+            "name": "Camion de Tonnage Moyen - Série 6",
+            "description": "Les camions de la série 6 présentent de nombreux avantages tels qu'une puissance élevée, une bonne capacité de franchissement, une forte capacité de charge et une grande fiabilité, adaptés aux conducteurs très sollicités, et offrent de bonnes performances pour le transport efficace sur de courtes distances en zones urbaines.",
+            "positioning": [
+              "Pour le transport interurbain à moyenne et longue distance",
+              "Pour le transport de construction et minier",
+              "Pour le transport résidentiel urbain"
+            ],
+            "features": [
+              "Flexible et léger",
+              "Petit rayon de braquage",
+              "Haute fiabilité et forte capacité de charge",
+              "Équipé de moteurs 3L, 4L, 7L"
+            ],
+            "driving_types": [
+              "Camion benne 6x4",
+              "Camion benne 8x4",
+              "Camion porteur 4x2",
+              "Camion porteur 4x4",
+              "Camion porteur 6x2",
+              "Camion porteur 6x4",
+              "Camion spécial (Bétonnière, Frigorifique, Benne à ordures, Grue sur camion)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": 6.49,
+                "model": "YC6A210-33",
+                "power_ps": 210,
+                "max_torque_nm": 710
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 6.7,
+                "model": "ISD270-50",
+                "power_ps": 270,
+                "max_torque_nm": 970
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": 7.52,
+                "model": "YC6A270-50",
+                "power_ps": 270,
+                "max_torque_nm": 1100
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 8,
+                "model": "8JS118",
+                "shell_material": "Fer",
+                "torque_nm": 1180,
+                "gear_type": "Directe",
+                "first_gear_ratio": 11.4,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 9,
+                "model": "9JS135T-B",
+                "shell_material": "Fer",
+                "torque_nm": 1180,
+                "gear_type": "Directe",
+                "first_gear_ratio": 12.11,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 10,
+                "model": "10JSD120B",
+                "shell_material": "Fer",
+                "torque_nm": 1200,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 12.74,
+                "top_gear_ratio": 0.73
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "153",
+                "type": "Simple",
+                "axle_load_ton": 10,
+                "torque_nm": 30000,
+                "speed_ratio": "4.875/5.143/5.573/6.83"
+              },
+              {
+                "model": "457",
+                "type": "Simple",
+                "axle_load_ton": 13,
+                "torque_nm": 40000,
+                "speed_ratio": "4.875/5.286/5.833/6.33"
+              },
+              {
+                "model": "HDZ13T",
+                "type": "Simple",
+                "axle_load_ton": 13,
+                "torque_nm": 46000,
+                "speed_ratio": "3.7/4.11/4.625/5.571"
+              }
+            ]
+          }
+        ],
+        "light_duty_trucks": [
+          {
+            "modelName": "Series_7",
+            "name": "Camion Léger - Série 7",
+            "description": "Les camions de la série 7 sont compacts, flexibles et de grande capacité. Ils sont faciles à conduire, avec une garde au sol élevée et une excellente capacité tout-terrain, pour les routes boueuses, les terrains désertiques et le transport en montagne.",
+            "positioning": [
+              "Pour le transport de construction et minier",
+              "Pour le transport interurbain à moyenne et longue distance",
+              "Pour le transport résidentiel urbain"
+            ],
+            "features": [
+              "PTAC jusqu'à 20 tonnes. Poids à vide inférieur à 6 tonnes.",
+              "Conception de cabine à carrosserie étroite",
+              "Haute fiabilité et forte capacité de charge"
+            ],
+            "driving_types": [
+              "Camion porteur 4x2",
+              "Camion porteur 4x4",
+              "Camion benne 4x2",
+              "Camion benne 4x4",
+              "Camion spécial (Bétonnière, Frigorifique, Benne à ordures, Grue sur camion)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": "3.9/4.26",
+                "model": "B125.33/B140 33/YC4E-33",
+                "power_ps": "125-160",
+                "max_torque_nm": "410-520"
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": "3.78/4.295",
+                "model": "ISF3.8s5/YCS04-50",
+                "power_ps": "168-220",
+                "max_torque_nm": "550-850"
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 8,
+                "model": "8JS85E-C",
+                "shell_material": "Fer",
+                "torque_nm": 850,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 10.364,
+                "top_gear_ratio": 0.794
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 8,
+                "model": "8JS85F-C",
+                "shell_material": "Fer",
+                "torque_nm": 850,
+                "gear_type": "Directe",
+                "first_gear_ratio": 11.7,
+                "top_gear_ratio": 1
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "145",
+                "type": "Simple",
+                "axle_load_ton": 8,
+                "torque_nm": 18000,
+                "speed_ratio": "5.286"
+              },
+              {
+                "model": "153",
+                "type": "Simple",
+                "axle_load_ton": 10,
+                "torque_nm": 30000,
+                "speed_ratio": "5.574/5.833/6.333"
+              }
+            ]
+          },
+          {
+            "modelName": "Series_9",
+            "name": "Camion Léger - Série 9",
+            "description": "Les camions de la série 9 sont compacts, flexibles et de grande capacité. Faciles à conduire, avec une meilleure visibilité et des caractéristiques ergonomiques, ils offrent également un système d'alimentation entièrement électrique. Les camions légers à traction intégrale SAGMOTO ES sont le choix privilégié pour les opérations en montagne et dans la jungle, avec une plus grande capacité de pente et une meilleure praticabilité.",
+            "positioning": [
+              "Pour la logistique à courte et moyenne distance",
+              "Pour la chaîne du froid interurbaine",
+              "Pour les produits industriels quotidiens"
+            ],
+            "features": [
+              "Léger pour une grande mobilité",
+              "Facilement modifiable pour un usage spécial",
+              "Équipé de moteurs 3L, 4L, 7L"
+            ],
+            "driving_types": [
+              "Camion porteur 4x2",
+              "Camion porteur 4x4",
+              "Camion benne 4x2",
+              "Camion benne 4x4",
+              "Camion spécial (Bétonnière, Frigorifique, Benne à ordures, Grue sur camion)"
+            ],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": "3.9/4.21",
+                "model": "B125 33/B140.33/YC4D-33",
+                "power_ps": "125-140",
+                "max_torque_nm": "380-450"
+              },
+              {
+                "emission": "Euro III",
+                "engine_capacity_l": "3.8/2.78",
+                "model": "ISF3.883/ISF2.8s5",
+                "power_ps": "129-161",
+                "max_torque_nm": "280-450"
+              },
+              {
+                "emission": "Euro V",
+                "engine_capacity_l": "3.78/4.21",
+                "model": "ISF3.8s5/YC4D-50",
+                "power_ps": "140-168",
+                "max_torque_nm": "450-600"
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 6,
+                "model": "C6J55TB",
+                "shell_material": "Aluminium",
+                "torque_nm": 550,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 6.176,
+                "top_gear_ratio": 0.73
+              },
+              {
+                "shift_mode": "AMT",
+                "gears": 6,
+                "model": "F6JZ55AY",
+                "shell_material": "Aluminium",
+                "torque_nm": 550,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 5.91,
+                "top_gear_ratio": 0.77
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ260",
+                "type": "Simple",
+                "axle_load_ton": 3.5,
+                "torque_nm": 11000,
+                "speed_ratio": "4.333"
+              },
+              {
+                "model": "HDZ280",
+                "type": "Simple",
+                "axle_load_ton": 6,
+                "torque_nm": 14000,
+                "speed_ratio": "4.333/4.875"
+              },
+              {
+                "model": "1080",
+                "type": "Single",
+                "axle_load_ton": 6,
+                "torque_nm": 18000,
+                "speed_ratio": "4.33/5.286/5.83/6.83"
+              }
+            ],
+            "specific_configurations": [
+              {
+                "model_name": "X9 4x2 Camionnette",
+                "model": "SX1123E1Y1483810",
+                "steering_position": "Conduite à gauche",
+                "transmission_type": "4x2",
+                "gvw_t": 12,
+                "vehicle_dimension_mm": "6960x2480x3340",
+                "wheelbase_mm": 3800,
+                "engine": {
+                  "brand": "YUCHAI",
+                  "model": "YC4D140-33",
+                  "emission_standard": "EURO II",
+                  "rated_power": "140 ch/103KW",
+                  "rated_rotation_speed_rpm": 2800,
+                  "max_torque_rotation_speed": "420N.m/1400-1700rpm",
+                  "displacement_l": 4.214
+                },
+                "transmission": {
+                  "brand": "FAST",
+                  "model": "C6745TB"
+                },
+                "front_axle": "2.5T",
+                "rear_axle": "Essieu moteur de décélération à un seul niveau, Ratio 5.83",
+                "tire": "7.50R16LT/14PR (6+1)",
+                "body": "4800x2200x2000 mm"
+              },
+              {
+                "model_name": "X9 4x2 Camionnette Benne",
+                "model": "SX3123E1Y1483410",
+                "steering_position": "Conduite à gauche",
+                "transmission_type": "4x2",
+                "gvw_t": 12,
+                "vehicle_dimension_mm": "5800x2300x2800",
+                "wheelbase_mm": 3400,
+                "max_speed_kmh": 80,
+                "engine": {
+                  "brand": "YUCHAI",
+                  "model": "YC4D140-33",
+                  "emission_standard": "EURO II",
+                  "rated_power": "140 ch/103KW",
+                  "rated_rotation_speed_rpm": 2800,
+                  "max_torque_rotation_speed": "420N.m/1400-1700rpm",
+                  "displacement_l": 4.214
+                },
+                "transmission": {
+                  "brand": "FAST",
+                  "model": "8JS85F-C+QD40L"
+                },
+                "front_axle": "2.7T",
+                "rear_axle": "7T, essieu moteur de décélération à un seul niveau, Ratio 5.833",
+                "tire": "8.25R20/16PR (6+1)",
+                "body": "Dimension: 3700x2100x800mm, fond 4mm, côté 3mm, levage avant"
+              },
+              {
+                "model_name": "X9 4x4 Camionnette Benne",
+                "model": "SX3163E2Y13F3620",
+                "steering_position": "Conduite à gauche",
+                "transmission_type": "4x4",
+                "gvw_t": 16,
+                "curb_weight_t": 7,
+                "payload_t": 9,
+                "vehicle_dimension_mm": "6100x2300x3000",
+                "wheelbase_mm": 3600,
+                "engine": {
+                  "brand": "YUCHAI",
+                  "model": "YC4D130-33",
+                  "emission_standard": "EURO II",
+                  "rated_power": "130 ch/96KW",
+                  "rated_rotation_speed_rpm": 2800,
+                  "max_torque_rotation_speed": "380N.m/1400-1700rpm",
+                  "displacement_l": 4.21
+                },
+                "transmission": {
+                  "brand": "FAST",
+                  "model": "8JS85TE-C+QD40J"
+                },
+                "rear_axle": "10T, essieu moteur de décélération à un seul niveau, Ratio 6.833",
+                "tire": "9.00R20/16PR (6+1)",
+                "body": "Dimension: 3600x2100x800 mm (6m³), levage au milieu"
+              },
+              {
+                "model_name": "X7 4x2 Camionnette Toupie",
+                "model": "SX5183GJBF2Y14B3710",
+                "steering_position": "Conduite à gauche",
+                "transmission_type": "4x2",
+                "gvw_t": "≤20",
+                "wheelbase_mm": 3700,
+                "engine": {
+                  "brand": "YUCHAI",
+                  "model": "YC4D140-33 avec prise de force",
+                  "emission_standard": "EURO II",
+                  "rated_power": "140 ch/103KW",
+                  "max_torque_rotation_speed": "420N.m/1400-1700rpm",
+                  "displacement_l": 4.214
+                },
+                "transmission": {
+                  "brand": "FAST",
+                  "model": "8JS85F-C"
+                },
+                "front_axle": "5T",
+                "rear_axle": "13T, essieu moteur de décélération à un seul niveau, Ratio 5.833",
+                "tire": "10.00R20/18PR (6+1)",
+                "body": "CIMC, 6m³ de volume"
+              },
+              {
+                "model_name": "X9 4x4 Camion Plateau Ridelle",
+                "model": "SX1123E1Y1483820",
+                "transmission_type": "4x4",
+                "payload_t": "≤8t",
+                "wheelbase_mm": 3600,
+                "engine": {
+                  "brand": "YUCHAI",
+                  "model": "YC4D140-33",
+                  "emission_standard": "EURO II",
+                  "rated_power": "140HP/103KW",
+                  "displacement_l": 4.214
+                },
+                "transmission": {
+                  "brand": "FAST",
+                  "model": "8JS85TE-C"
+                },
+                "rear_axle": "10T, ratio 6.83",
+                "tire": "9.00R20/16PR (6+1)",
+                "body": "5000x2100x400 mm. Plancher 3mm, côté de 1.5mm, 5 portes"
+              },
+              {
+                "model_name": "X9 4x2 Camion Frigorique -20°C/20°C",
+                "model": "SX5123XLCE1Y1483810",
+                "transmission_type": "4x2",
+                "payload_t": "≤12t",
+                "wheelbase_mm": 3800,
+                "engine": {
+                  "brand": "YUCHAI",
+                  "model": "YC4D140-33",
+                  "emission_standard": "EURO II",
+                  "rated_power": "140HP/103KW",
+                  "displacement_l": 4.214
+                },
+                "transmission": {
+                  "brand": "FAST",
+                  "model": "C6J45TB"
+                },
+                "front_axle": "2.5T",
+                "rear_axle": "6T, ratio 5.83",
+                "tire": "7.50R16LT/14PR",
+                "body": "Caisse frigo, 4800x2200x2000 mm",
+                "cooling_temperature": "-20°C à 20°C"
+              }
+            ]
+          }
+        ],
+        "electric_light_truck": [
+          {
+            "modelName": "Series_19",
+            "name": "Camion Léger Électrique - Série 19",
+            "description": "Camion léger électrique de la série 19 avec une longue autonomie, une longue garantie, plus de satisfaction et de sécurité.",
+            "positioning": [
+              "Pour la livraison express",
+              "Pour la distribution en supermarché",
+              "Pour la chaîne du froid"
+            ],
+            "features": [
+              "L'essieu moteur électrique intégré combine le moteur avec l'essieu arrière",
+              "Équipé de batteries CATL 86.55kWh/100.46kWh LiFePO4",
+              "L'autonomie peut atteindre 280km-330km (entièrement chargé, avec 4 tonnes de marchandises)",
+              "Le moteur à fil plat amélioré a un couple de pointe de 360 Nm",
+              "Charge de 10% à 100% en 1 heure (borne de recharge de 750kw)"
+            ],
+            "driving_types": [
+              "Camionnette 4x2",
+              "Camion frigorifique 4x2",
+              "Camion à ridelles 4x2"
+            ],
+            "drive_motor": [
+              {
+                "model": "TZ220XS-HD002",
+                "power_ps": 163,
+                "max_torque_nm": 480
+              }
+            ],
+            "battery": [
+              {
+                "brand": "CATL",
+                "model": "86.55kWh/100.46kWh",
+                "charging_performance": "Recharge: 20%-80% (40min), charge: 10%-100% (1h)",
+                "charging_time": "Courant continu: 30kWh/60kWh/120kWh/180 kWh Temps: 4h/2h/1h/40min"
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDE220",
+                "type": "Simple",
+                "axle_load_kg": "3.5T",
+                "torque_nm": 11000,
+                "speed_ratio": "16.193"
+              }
+            ]
+          }
+        ],
+        "off_road_truck": [
+          {
+            "modelName": "Dump_Truck",
+            "name": "Camion Tout-Terrain - Camion Benne",
+            "description": "Le camion benne minier tout-terrain est personnalisé pour les conditions sans route/tout-terrain/minière, avec une forte capacité de charge, une grande fiabilité, un faible taux de panne et une utilisation flexible.",
+            "positioning": [
+              "Pour les routes de transport minier et carrières",
+              "Pour le transport lourd tout-terrain",
+              "Pour des opérations à forte charge et haute fiabilité"
+            ],
+            "features": [
+              "Plus grande capacité de charge, plus grande disponibilité",
+              "PTAC jusqu'à 70 tonnes",
+              "Adoption d'une structure de châssis large de 850",
+              "Couple de freinage maximal de 4000 Nm"
+            ],
+            "driving_types": ["Camion benne 6x4"],
+            "engine": [
+              {
+                "emission": "Euro II",
+                "engine_capacity_l": 10.34,
+                "model": "YC6MK375-33",
+                "power_ps": 375,
+                "max_torque_nm": 1650
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "MT",
+                "gears": 7,
+                "model": "7DS180",
+                "shell_material": "Fer",
+                "torque_nm": 1800,
+                "gear_type": "Directe",
+                "first_gear_ratio": 9.14,
+                "top_gear_ratio": 1
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 10,
+                "model": "10JSD180T+QH50",
+                "shell_material": "Fer",
+                "torque_nm": 1800,
+                "gear_type": "Directe",
+                "first_gear_ratio": 14.917,
+                "top_gear_ratio": 1
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDM300",
+                "type": "Double",
+                "axle_load_ton": 16,
+                "torque_nm": 50000,
+                "speed_ratio": "6.733/5.92/5.262"
+              }
+            ]
+          },
+          {
+            "modelName": "Offset_Tractor",
+            "name": "Camion Tout-Terrain - Tracteur Portuaire",
+            "description": "Le tracteur portuaire SAGMOTO se décline désormais en deux grandes séries et trois choix de carburant (diesel, gaz naturel et tout électrique). Il peut s'adapter aux exigences opérationnelles des ports, des zones logistiques, des aciéries, etc.",
+            "positioning": [
+              "Pour les ports et zones logistiques",
+              "Pour les aciéries et sites industriels",
+              "Pour la manœuvre de remorques sur courte distance"
+            ],
+            "features": [
+              "L'assemblage du moteur à gaz à trois étages tout-terrain est conforme à la certification ECE",
+              "Système de levage à détection de position de la sellette d'attelage à haute charge",
+              "Plage de levage de la sellette d'attelage > 400mm, avec une compatibilité à 100% pour les remorques portuaires"
+            ],
+            "driving_types": ["Tracteur 4x2", "Tracteur 6x4"],
+            "engine": [
+              {
+                "emission": "Euro III",
+                "engine_capacity_l": 6.7,
+                "model": "QSB6.7-C220-30",
+                "power_ps": 220,
+                "max_torque_nm": 949
+              }
+            ],
+            "transmission": [
+              {
+                "shift_mode": "AT",
+                "gears": 6,
+                "model": "Allison 3500P",
+                "shell_material": "Aluminium",
+                "torque_nm": 1335,
+                "gear_type": "Directe",
+                "first_gear_ratio": 4.59,
+                "top_gear_ratio": 0.65
+              },
+              {
+                "shift_mode": "MT",
+                "gears": 6,
+                "model": "6DS130TA",
+                "shell_material": "Aluminium",
+                "torque_nm": 1300,
+                "gear_type": "Surmultipliée",
+                "first_gear_ratio": 8.71,
+                "top_gear_ratio": 1
+              }
+            ],
+            "drive_axle": [
+              {
+                "model": "HDZ",
+                "type": "Double",
+                "axle_load_ton": 16,
+                "torque_nm": 43000,
+                "speed_ratio": "11.98"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -5,6 +5,12 @@
     "rules": {
       "style": {
         "noHeadElement": "off"
+      },
+      "performance": {
+        "noImgElement": "off"
+      },
+      "nursery": {
+        "useImageSize": "off"
       }
     }
   }
