@@ -14,6 +14,12 @@ const members: TeamMember[] = [
   { id: 4, name: "Emma Thompson", role: "Finance Manager", image: undefined },
 ];
 
+const getInitials = (name: string): string => {
+  const parts = name.split(" ");
+  const initials = (parts[0]?.charAt(0) || "") + (parts[1]?.charAt(0) || "");
+  return initials.toUpperCase();
+};
+
 const TeamSection = () => (
   <section className="py-16 sm:py-20">
     <div className="container px-4">
@@ -35,10 +41,7 @@ const TeamSection = () => (
             <div className="mb-4 flex items-center gap-4">
               <Avatar className="size-14">
                 <AvatarImage alt={member.name} src={member.image ?? ""} />
-                <AvatarFallback>
-                  {member.name.split(" ")[0].charAt(0) +
-                    member.name.split(" ")[1].charAt(0)}
-                </AvatarFallback>
+                <AvatarFallback>{getInitials(member.name)}</AvatarFallback>
               </Avatar>
               <div>
                 <h3 className="font-semibold">{member.name}</h3>
