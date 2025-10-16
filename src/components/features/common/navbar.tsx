@@ -155,7 +155,7 @@ const Navbar = ({
   },
 }: NavbarProps) => {
   return (
-    <section className="py-4">
+    <section className="sticky top-0 z-50 border-b py-4 pb-2 backdrop-blur-md backdrop-filter">
       <div className="container">
         {/* Desktop Menu */}
         <nav className="hidden justify-between lg:flex">
