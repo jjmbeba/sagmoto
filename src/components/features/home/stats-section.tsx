@@ -30,17 +30,17 @@ const StatsSection = () => {
 
   return (
     <section className="py-32">
-      <div className="container">
+      <div className="container flex flex-col items-center justify-center">
         <div className="flex flex-col gap-4">
-          <h2 className="font-bold text-2xl md:text-4xl">
+          <h2 className="text-center font-bold text-2xl md:text-4xl">
             Trusted by Businesses nationwide
           </h2>
-          <p>
+          <p className="text-center">
             Our track record speaks for itself. Join thousands of satisfied
             customers who trust us for their commercial vehicle needs.
           </p>
         </div>
-        <div className="mt-14 grid gap-x-5 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-14 grid gap-x-7 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat) => (
             <div className="flex flex-col gap-5" key={stat.label}>
               <div className="font-bold text-6xl">{stat.value}</div>

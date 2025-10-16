@@ -11,10 +11,10 @@ export const Route = createFileRoute("/")({
 function App() {
   return (
     <div className="min-h-screen">
-      <main className="px-6">
+      <main className="relative z-10 px-6">
         <HeroSection />
-        <StatsSection />
         <ProductShowcase />
+        <StatsSection />
         <TestimonialsSection />
         {/* <CTASection /> */}
       </main>

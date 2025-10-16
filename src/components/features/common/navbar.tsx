@@ -17,11 +17,9 @@ import {
 } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
 import {
-  NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuList,
   NavigationMenuTrigger,
 } from "@/components/ui/navigation-menu";
 import {
@@ -155,30 +153,39 @@ const Navbar = ({
   },
 }: NavbarProps) => {
   return (
-    <section className="sticky top-0 z-50 border-b py-4 pb-2 backdrop-blur-md backdrop-filter">
-      <div className="container">
+    <section className="relative z-50 bg-transparent py-4 pb-2">
+      <div className="container bg-transparent">
         {/* Desktop Menu */}
-        <nav className="hidden justify-between lg:flex">
-          <div className="flex flex-1 items-center justify-between px-4">
+        <nav className="hidden justify-between bg-transparent lg:flex">
+          <div className="flex flex-1 items-center justify-between bg-transparent px-4">
             {/* Logo */}
-            <Link className="flex items-center gap-2" to="/">
+            <Link className="flex items-center gap-2 bg-transparent" to="/">
               <img
                 alt={logo.alt}
-                className="max-h-8 dark:invert"
+                className="max-h-8 bg-transparent dark:invert"
                 height={32}
                 src={logo.src}
                 width={32}
               />
-              <span className="font-semibold text-lg tracking-tighter">
+              <span className="bg-transparent font-semibold text-lg tracking-tighter">
                 {logo.title}
               </span>
             </Link>
-            <div className="flex items-center">
-              <NavigationMenu>
-                <NavigationMenuList>
+            <div className="flex items-center gap-4 bg-transparent">
+              {/* <NavigationMenu className="bg-transparent">
+                <NavigationMenuList className="bg-transparent">
                   {menu.map((item) => renderMenuItem(item))}
                 </NavigationMenuList>
-              </NavigationMenu>
+              </NavigationMenu> */}
+              {menu.map((item) => (
+                <Link
+                  className="bg-transparent uppercase"
+                  key={item.title}
+                  to={item.url}
+                >
+                  {item.title}
+                </Link>
+              ))}
             </div>
           </div>
         </nav>

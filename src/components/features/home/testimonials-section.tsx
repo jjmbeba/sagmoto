@@ -63,7 +63,7 @@ const TestimonialsSection = () => (
         className="w-full max-w-5xl"
         plugins={[
           Autoplay({
-            delay: 2000,
+            delay: 4000,
           }),
         ]}
       >
