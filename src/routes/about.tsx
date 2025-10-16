@@ -16,8 +16,8 @@ export const Route = createFileRoute("/about")({
       },
       {
         title: "Equipment King Inc. - About Us",
-        description: "Learn more about Equipment King Inc.",
       },
+      { name: "description", content: "Learn more about Equipment King Inc." },
     ],
   }),
   component: RouteComponent,
