@@ -123,7 +123,7 @@ const Navbar = ({
     },
     {
       title: "News",
-      url: "#",
+      url: "/news",
     },
     {
       title: "About Us",
