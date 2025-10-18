@@ -143,7 +143,7 @@ export function ProductCard({ truck }: ProductCardProps) {
         <div className="pt-2">
           <Button asChild className="w-full">
             <Link
-              params={{ productId: truck.modelName }}
+              params={{ productId: truck.modelName.toLowerCase() }}
               to="/products/$productId"
             >
               View Details
