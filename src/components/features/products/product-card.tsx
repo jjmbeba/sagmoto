@@ -13,7 +13,6 @@ import type { Truck as TruckType } from "@/types";
 
 type ProductCardProps = {
   truck: TruckType;
-  category: string;
 };
 
 export function ProductCard({ truck }: ProductCardProps) {
