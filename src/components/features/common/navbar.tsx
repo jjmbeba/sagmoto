@@ -49,7 +49,7 @@ const Navbar = ({
   menu = [
     {
       title: "Products",
-      url: "#",
+      url: "/products",
       items: [
         {
           title: "Light Duty Truck",
